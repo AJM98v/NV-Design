@@ -1,0 +1,371 @@
+@media screen and (max-width: 1070px ) {
+
+    .title p {
+        padding: 0 10px;
+    }
+
+    .wwu-container button {
+        margin: auto auto 10px;
+    }
+
+    .wwu-container p {
+        font-size: 12px;
+        width: 90%;
+        line-height: 30px;
+    }
+
+    #Service .service-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    #Service .about-services {
+        width: 100%;
+        margin: 0 20px;
+
+    }
+
+    .about-services h1 {
+        font-size: 25px;
+    }
+
+    .about-services p {
+        font-size: 13px;
+    }
+
+    #Service .service-items {
+        width: 100%;
+        flex-wrap: nowrap;
+
+    }
+
+    .item p {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 900px ) {
+    .about-container p {
+        margin: 10px;
+        font-size: 13px;
+        line-height: 30px;
+
+        padding: 25px;
+    }
+
+    #ContactUs .contact-container {
+        flex-direction: column;
+        width: 90%;
+        height: 82%;
+    }
+
+    .contact-container .contact-info {
+        width: 100%;
+        margin: 0 15px;
+    }
+
+    .contact-container .contact-form {
+        width: 100%;
+        flex: 100%;
+    }
+
+    .contact-form form {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact-form form label {
+        display: block;
+        width: 90%;
+        font-size: 10px;
+    }
+
+    .contact-form form input {
+        font-size: 15px;
+        display: block;
+        width: 90%;
+        line-height: 20px;
+    }
+
+    .contact-form form textarea {
+        height: 80%;
+        width: 60%;
+        margin: 2px 5px;
+        padding: 5px;
+    }
+
+    .contact-form form #contact-btn {
+        width: 20%;
+        margin: 6px 5px;
+
+    }
+
+    .product-container .product-slide {
+        height: 45%
+    }
+
+    .product-smp .smp-content .overlay {
+        padding: 0;
+    }
+
+
+}
+
+@media screen and (max-width: 750px ) {
+    #navTop .MNavigation {
+        font-size: 15px;
+    }
+
+    .title h1 {
+        font-size: 50px;
+    }
+
+    .title p {
+        font-size: 12px;
+
+    }
+
+    #AboutUs p {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .wwu-container p {
+        margin: 0 auto;
+    }
+
+    #Service .service-items {
+        margin: 0;
+    }
+
+    #Service .about-services {
+
+        margin: 0;
+    }
+
+    .product-slide .product-smp {
+        width: 33%;
+    }
+
+}
+
+@media screen and (max-width: 663px) {
+    #Mobile-nav {
+        display: block;
+    }
+
+    #fixNav {
+        display: none;
+
+    }
+
+    #navTop .MNavigation {
+        display: none;
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #Service .service-container {
+        width: 80%;
+        height: 85%;
+
+    }
+
+    .service-container .about-services {
+        height: fit-content;
+        background-color: inherit;
+    }
+
+    .about-services p {
+        display: none;
+    }
+
+    #Service .service-items {
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+
+    .product-container .product-slide {
+        justify-content: center;
+        height: fit-content;
+    }
+
+    .product-container button {
+        width: 60%;
+        font-size: 10px;
+    }
+
+    #MoreProduct .product-slide .product-smp {
+        width: 50%;
+    }
+
+
+    #home .title {
+        width: 75%;
+        top: 60%;
+        margin: 0;
+    }
+
+    #AboutUs .about-container {
+        padding: 5px;
+    }
+
+    #WorkWithUS .wwu-container {
+        height: 80%;
+        width: 90%;
+    }
+
+    .product-slide .product-smp {
+        width: 30%;
+    }
+
+
+}
+
+@media screen and (max-width: 590px) {
+    .product-slide .product-smp {
+        width: 35%
+    }
+
+    .overlay p {
+        display: none;
+    }
+
+    .overlay h3 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    #home .title {
+        margin: 0;
+        top: 65%;
+    }
+
+    .title p {
+        font-size: 10px;
+    }
+
+    #Service .service-items {
+        margin: 0;
+    }
+
+    #Service .about-services {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .about-services h1 {
+        font-size: 19px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .product-container button {
+        width: 65%;
+        font-size: 12px;
+    }
+
+    #AboutUs p {
+        height: 80%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        padding: 0;
+        line-height: 28px;
+    }
+
+
+    .wwu-container h1 {
+        margin: 0 auto;
+    }
+
+    .wwu-container p {
+        padding: 0;
+        line-height: 28px;
+    }
+
+    .wwu-container button {
+        width: 50%;
+    }
+
+    .contact-container .contact-info {
+        display: none;
+    }
+
+    .contact-container .contact-form {
+        padding: 20px;
+        height: fit-content;
+    }
+
+    .contact-form form textarea {
+        width: 90%;
+        height: 100px;
+    }
+
+    .contact-form form #contact-btn {
+        width: 50%;
+    }
+
+    .info {
+        display: flex;
+        margin-top: 62px;
+        font-family: Samim-b, sans-serif;
+        flex-direction: column;
+
+    }
+
+    .product-slide .product-smp {
+        width: 45%
+    }
+
+    #MoreProduct .product-slide .product-smp {
+        width: 80%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 415px) {
+    .item p {
+        display: none;
+    }
+
+    #Service .service-items {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    #AboutUs .about-container {
+        padding: 0;
+        height: 80%;
+    }
+
+    .product-container button {
+        width: 75%;
+        font-size: 11px;
+    }
+
+    .title h1 {
+        font-size: 45px;
+    }
+
+    #home .title {
+        top: 60%;
+    }
+
+}
+
+@media screen and (max-height: 600px) {
+    #Service .service-items {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
